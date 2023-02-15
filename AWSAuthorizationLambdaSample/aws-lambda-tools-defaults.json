@@ -1,0 +1,27 @@
+
+{
+    "Information" : [
+        "This file provides default values for the deployment wizard inside Visual Studio and the AWS Lambda commands added to the .NET Core CLI.",
+        "To learn more about the Lambda commands with the .NET Core CLI execute the following command at the command line in the project root directory.",
+        "dotnet lambda help",
+        "All the command line options for the Lambda command can be specified in this file."
+    ],
+    "profile"     : "AWSAdmin-Dev",
+    "region"      : "us-east-1",
+    "configuration" : "Release",
+    "function-architecture" : "x86_64",
+    "function-runtime"      : "dotnet6",
+    "function-memory-size"  : 256,
+    "function-timeout"      : 30,
+    "function-handler"      : "AWSAuthorizationLambdaSample::AWSAuthorizationLambdaSample.Function::ValidateToken",
+    "framework"             : "net6.0",
+    "function-name"         : "AWSAuthorizationLambdaSample",
+    "function-description"  : "AWSAuthorizationLambdaSample written in Dot Net 6 to match AWS security tutorial",
+    "package-type"          : "Zip",
+    "function-role"         : "arn:aws:iam::484723677553:role/TW-BasicTestLambda-Role",
+    "function-subnets"      : "",
+    "function-security-groups" : "",
+    "tracing-mode"             : "PassThrough",
+    "environment-variables"    : "",
+    "image-tag"                : ""
+}
